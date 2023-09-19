@@ -17,5 +17,7 @@ export default function App() {
     return null;
   }
 
-  return <Router />;
+  return (
+  <Router />
+  );
 }
