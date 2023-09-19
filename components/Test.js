@@ -6,7 +6,7 @@ function ButtonNav(props) {
         props.navigation.navigate(props.children);
       }}
     >
-      <Text>Home</Text>
+      <Text>{props.children}</Text>
     </Pressable>
   );
 }
@@ -16,6 +16,8 @@ export default function Test({ navigation }) {
     <View>
       <Text style={styles.paragraf}>Hello World!!!</Text>
       <Text>{foo}</Text>
+      <ButtonNav navigation={navigation}>About</ButtonNav>
+      <ButtonNav navigation={navigation}>Home</ButtonNav>
     </View>
   );
 }
