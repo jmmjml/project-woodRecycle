@@ -1,4 +1,4 @@
-import { Pressable, Text, Image, View } from "react-native";
+import { Pressable, Text, Image, View, StyleSheet } from "react-native";
 
 export function ButtonNav(props) {
   return (
@@ -11,3 +11,4 @@ export function ButtonNav(props) {
     </Pressable>
   );
 }
+const buttonStyle = new StyleSheet.create({})
