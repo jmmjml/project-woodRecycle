@@ -17,6 +17,7 @@ export default function Home({ navigation }) {
         source={reciclagem}
         contentFit="cover"
       />
+      <Text></Text>
         <Pressable
             style={{
               backgroundColor: '#b1deef',
